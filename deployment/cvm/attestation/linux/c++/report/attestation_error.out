@@ -1,0 +1,211 @@
+adminuser@cc-cvm-sd-1:~/attestation$ bash attestationAppLinux.sh
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+build-essential is already the newest version (12.8ubuntu1.1).
+The following package was automatically installed and is no longer required:
+  libfreetype6
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+libcurl4-openssl-dev is already the newest version (7.68.0-1ubuntu2.12).
+The following package was automatically installed and is no longer required:
+  libfreetype6
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+libjsoncpp-dev is already the newest version (1.7.4-3.1ubuntu2).
+The following package was automatically installed and is no longer required:
+  libfreetype6
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libfreetype6
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  cmake-data librhash0
+Suggested packages:
+  cmake-doc ninja-build
+The following NEW packages will be installed:
+  cmake cmake-data librhash0
+0 upgraded, 3 newly installed, 0 to remove and 2 not upgraded.
+Need to get 5394 kB of archives.
+After this operation, 28.1 MB of additional disk space will be used.
+Get:1 http://azure.archive.ubuntu.com/ubuntu focal/main amd64 cmake-data all 3.16.3-1ubuntu1 [1612 kB]
+Get:2 http://azure.archive.ubuntu.com/ubuntu focal/main amd64 librhash0 amd64 1.3.9-1 [113 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu focal/main amd64 cmake amd64 3.16.3-1ubuntu1 [3669 kB]
+Fetched 5394 kB in 0s (12.3 MB/s)
+Selecting previously unselected package cmake-data.
+(Reading database ... 63625 files and directories currently installed.)
+Preparing to unpack .../cmake-data_3.16.3-1ubuntu1_all.deb ...
+Unpacking cmake-data (3.16.3-1ubuntu1) ...
+Selecting previously unselected package librhash0:amd64.
+Preparing to unpack .../librhash0_1.3.9-1_amd64.deb ...
+Unpacking librhash0:amd64 (1.3.9-1) ...
+Selecting previously unselected package cmake.
+Preparing to unpack .../cmake_3.16.3-1ubuntu1_amd64.deb ...
+Unpacking cmake (3.16.3-1ubuntu1) ...
+Setting up librhash0:amd64 (1.3.9-1) ...
+Setting up cmake-data (3.16.3-1ubuntu1) ...
+Setting up cmake (3.16.3-1ubuntu1) ...
+Processing triggers for man-db (2.9.1-1) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+--2022-08-02 21:42:54--  https://packages.microsoft.com/repos/azurecore/pool/main/a/azguestattestation1/azguestattestation1_1.0.2_amd64.deb
+Resolving packages.microsoft.com (packages.microsoft.com)... 40.118.250.56
+Connecting to packages.microsoft.com (packages.microsoft.com)|40.118.250.56|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 358884 (350K) [application/octet-stream]
+Saving to: ‘azguestattestation1_1.0.2_amd64.deb’
+
+azguestattestation1_1.0.2_amd64.deb                    100%[==========================================================================================================================>] 350.47K  --.-KB/s    in 0.1s
+
+#!/bin/bash
+sudo apt-get install build-essential -y
+sudo apt-get install libcurl4-openssl-dev -y
+sudo apt-get install libjsoncpp-dev -y
+sudo apt-get install cmake -y
+wget https://packages.microsoft.com/repos/azurecore/pool/main/a/azguestattestation1/azguestattestation1_1.0.2_amd64.deb
+sudo dpkg -i azguestattestation1_1.0.2_amd64.deb
+git clone https://github.com/akashgupta29/attestation-app-linux.git
+cd attestation-app-linux/
+cmake .
+make
+sudo ./AttestationClient
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"attestationAppLinux.sh" 13L, 468C                                                                                                                                                                      5,29          All
+#!/bin/bash
+sudo apt-get install build-essential -y
+sudo apt-get install libcurl4-openssl-dev -y
+sudo apt-get install libjsoncpp-dev -y
+sudo apt-get install cmake -y
+wget https://packages.microsoft.com/repos/azurecore/pool/main/a/azguestattestation1/azguestattestation1_1.0.2_amd64.deb
+sudo dpkg -i azguestattestation1_1.0.2_amd64.deb
+git clone https://github.com/akashgupta29/attestation-app-linux.git
+cd attestation-app-linux/
+cmake .
+make
+sudo ./AttestationClient
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+2022-08-02 21:42:54 (2.81 MB/s) - ‘azguestattestation1_1.0.2_amd64.deb’ saved [358884/358884]
+
+(Reading database ... 66409 files and directories currently installed.)
+Preparing to unpack azguestattestation1_1.0.2_amd64.deb ...
+Unpacking azguestattestation1 (1.0.2) over (1.0.2) ...
+Setting up azguestattestation1 (1.0.2) ...
+Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
+Cloning into 'attestation-app-linux'...
+remote: Enumerating objects: 26, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 26 (delta 8), reused 16 (delta 5), pack-reused 0
+Unpacking objects: 100% (26/26), 27.33 KiB | 3.04 MiB/s, done.
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/adminuser/attestation/attestation-app-linux
+Scanning dependencies of target AttestationClient
+[ 33%] Building CXX object CMakeFiles/AttestationClient.dir/main.cpp.o
+[ 66%] Building CXX object CMakeFiles/AttestationClient.dir/Utils.cpp.o
+[100%] Linking CXX executable AttestationClient
+[100%] Built target AttestationClient
+Initiating Guest Attestation
+Level: Info Tag: AttestatationClientLib ParseURL:519:Attestation URL info - protocol {https}, domain {sharedeus.eus.test.attest.azure.net}
+Level: Info Tag: AttestatationClientLib Attest:99:Attestation URL - https://sharedeus.eus.test.attest.azure.net/attest/AzureGuest?api-version=2020-10-01
+Level: Info Tag: AttestatationClientLib GetOSInfo:600:Retrieving OS Info
+Level: Info Tag: AttestatationClientLib GetIsolationInfo:670:Retrieving Isolation Info
+Level: Debug Tag: AttestatationClientLib GetVCekCert:63:VCek cert received from IMDS successfully
+Level: Error Tag: AttestatationClientLib SendRequest:348:Failed sending curl request with error:Timeout was reached
+Level: Error Tag: AttestatationClientLib sendHttpRequest:739:Failed to send http request with error:Failed sending curl request with error:Timeout was reached
+Level: Error Tag: AttestatationClientLib sendAttestationRequest:494:Failed to send http request with error:Failed sending curl request with error:Timeout was reached
+Level: Error Tag: AttestatationClientLib Attest:134:Failed to send attestation request with error:Failed sending curl request with error:Timeout was reached
+Attestation call failed with following error code: -7 and description: Failed sending curl request with error:Timeout was reached
+adminuser@cc-cvm-sd-1:~/attestation$ vi attestationAppLinux.sh
+adminuser@cc-cvm-sd-1:~/attestation$

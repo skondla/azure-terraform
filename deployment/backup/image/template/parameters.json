@@ -1,0 +1,76 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "galleryName": {
+            "value": "azrccimagegallery"
+        },
+        "location": {
+            "value": "westus"
+        },
+        "publisher": {
+            "value": "F5"
+        },
+        "offer": {
+            "value": "cc-generized-vm"
+        },
+        "sku": {
+            "value": "cc-generized-vm-0.0.1"
+        },
+        "osState": {
+            "value": "Generalized"
+        },
+        "osType": {
+            "value": "Linux"
+        },
+        "hyperVGeneration": {
+            "value": "V2"
+        },
+        "minRecommendedvCPUs": {
+            "value": 1
+        },
+        "maxRecommendedvCPUs": {
+            "value": 16
+        },
+        "minRecommendedMemory": {
+            "value": 1
+        },
+        "maxRecommendedMemory": {
+            "value": 32
+        },
+        "securityType": {
+            "value": "ConfidentialVMSupported"
+        },
+        "imageDefinitionName": {
+            "value": "cc-generized-vm"
+        },
+        "versionName": {
+            "value": "0.0.1"
+        },
+        "defaultReplicaCount": {
+            "value": 1
+        },
+        "excludedFromLatest": {
+            "value": false
+        },
+        "regionReplications": {
+            "value": [
+                {
+                    "name": "westus",
+                    "regionalReplicaCount": 1,
+                    "storageAccountType": "Standard_LRS",
+                    "encryption": {
+                        "datadiskImages": [
+                            {
+                                "diskEncryptionSetId": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/CHKMARX-CONF-COMPUTE-MVP/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "sourceImageId": {
+            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/images/cc-cvm-sd-1-image-20220803171854"
+        }
+    }
+}

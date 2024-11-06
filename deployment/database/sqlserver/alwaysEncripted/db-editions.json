@@ -1,0 +1,6620 @@
+[
+  {
+    "name": "System",
+    "readScale": {
+      "maxNumberOfReplicas": 0,
+      "reason": null,
+      "status": null
+    },
+    "reason": "'System' is not a valid database edition in this version of SQL Server.",
+    "status": "Visible",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": null,
+        "id": "26e021db-f1f9-4c98-84c6-92af8ef433d7",
+        "includedMaxSize": null,
+        "name": "System",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 0.0
+        },
+        "reason": "'System' is not a valid database edition in this version of SQL Server.",
+        "sku": {
+          "capacity": 0,
+          "family": null,
+          "name": "System",
+          "size": null,
+          "tier": "System"
+        },
+        "status": "Visible",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": "'System' is not a valid database edition in this version of SQL Server.",
+            "status": "Visible",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "29dd7459-4a7c-4e56-be22-f0adda49440d",
+        "includedMaxSize": null,
+        "name": "System0",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 0.0
+        },
+        "reason": "'System' is not a valid database edition in this version of SQL Server.",
+        "sku": {
+          "capacity": 0,
+          "family": null,
+          "name": "System",
+          "size": null,
+          "tier": "System"
+        },
+        "status": "Visible",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": "'System' is not a valid database edition in this version of SQL Server.",
+            "status": "Visible",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "c99ac918-dbea-463f-a475-16ec020fdc12",
+        "includedMaxSize": null,
+        "name": "System1",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 0.0
+        },
+        "reason": "'System' is not a valid database edition in this version of SQL Server.",
+        "sku": {
+          "capacity": 0,
+          "family": null,
+          "name": "System",
+          "size": null,
+          "tier": "System"
+        },
+        "status": "Visible",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": "'System' is not a valid database edition in this version of SQL Server.",
+            "status": "Visible",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "620323bf-2879-4807-b30d-c2e6d7b3b3aa",
+        "includedMaxSize": null,
+        "name": "System2",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 0.0
+        },
+        "reason": "'System' is not a valid database edition in this version of SQL Server.",
+        "sku": {
+          "capacity": 0,
+          "family": null,
+          "name": "System",
+          "size": null,
+          "tier": "System"
+        },
+        "status": "Visible",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": "'System' is not a valid database edition in this version of SQL Server.",
+            "status": "Visible",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "33d0db1f-6893-4210-99f9-463fb9b496a4",
+        "includedMaxSize": null,
+        "name": "System3",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 0.0
+        },
+        "reason": "'System' is not a valid database edition in this version of SQL Server.",
+        "sku": {
+          "capacity": 0,
+          "family": null,
+          "name": "System",
+          "size": null,
+          "tier": "System"
+        },
+        "status": "Visible",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": "'System' is not a valid database edition in this version of SQL Server.",
+            "status": "Visible",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "da24338c-a6c9-46c2-a4bf-4ac95b496ae4",
+        "includedMaxSize": null,
+        "name": "System4",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 0.0
+        },
+        "reason": "'System' is not a valid database edition in this version of SQL Server.",
+        "sku": {
+          "capacity": 0,
+          "family": null,
+          "name": "System",
+          "size": null,
+          "tier": "System"
+        },
+        "status": "Visible",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": "'System' is not a valid database edition in this version of SQL Server.",
+            "status": "Visible",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "53f7fa1b-b0d0-43d6-bc29-c5f059fb36e9",
+        "includedMaxSize": null,
+        "name": "System2L",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 0.0
+        },
+        "reason": "'System' is not a valid database edition in this version of SQL Server.",
+        "sku": {
+          "capacity": 0,
+          "family": null,
+          "name": "System",
+          "size": null,
+          "tier": "System"
+        },
+        "status": "Visible",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": "'System' is not a valid database edition in this version of SQL Server.",
+            "status": "Visible",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "e79cd55c-689f-48d9-bffa-0dd12c772248",
+        "includedMaxSize": null,
+        "name": "System3L",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 0.0
+        },
+        "reason": "'System' is not a valid database edition in this version of SQL Server.",
+        "sku": {
+          "capacity": 0,
+          "family": null,
+          "name": "System",
+          "size": null,
+          "tier": "System"
+        },
+        "status": "Visible",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": "'System' is not a valid database edition in this version of SQL Server.",
+            "status": "Visible",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "4b37bb6d-e004-47ac-8f7a-be56ac9fb490",
+        "includedMaxSize": null,
+        "name": "System4L",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 0.0
+        },
+        "reason": "'System' is not a valid database edition in this version of SQL Server.",
+        "sku": {
+          "capacity": 0,
+          "family": null,
+          "name": "System",
+          "size": null,
+          "tier": "System"
+        },
+        "status": "Visible",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": "'System' is not a valid database edition in this version of SQL Server.",
+            "status": "Visible",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  },
+  {
+    "name": "Free",
+    "readScale": {
+      "maxNumberOfReplicas": 0,
+      "reason": null,
+      "status": null
+    },
+    "reason": null,
+    "status": "Available",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": null,
+        "id": "6aa3bb3e-7f50-40d6-95ef-5497c30d99d8",
+        "includedMaxSize": {
+          "limit": 32,
+          "unit": "Megabytes"
+        },
+        "name": "Free",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 5.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 5,
+          "family": null,
+          "name": "Free",
+          "size": null,
+          "tier": "Free"
+        },
+        "status": "Default",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  },
+  {
+    "name": "Basic",
+    "readScale": {
+      "maxNumberOfReplicas": 0,
+      "reason": null,
+      "status": null
+    },
+    "reason": null,
+    "status": "Available",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": null,
+        "id": "dd6d99bb-f193-4ec1-86f2-43d3bccbc49c",
+        "includedMaxSize": {
+          "limit": 2,
+          "unit": "Gigabytes"
+        },
+        "name": "Basic",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 5.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 5,
+          "family": null,
+          "name": "Basic",
+          "size": null,
+          "tier": "Basic"
+        },
+        "status": "Default",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  },
+  {
+    "name": "Standard",
+    "readScale": {
+      "maxNumberOfReplicas": 0,
+      "reason": null,
+      "status": null
+    },
+    "reason": null,
+    "status": "Available",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": null,
+        "id": "f1173c43-91bd-4aaa-973c-54e79e15235b",
+        "includedMaxSize": {
+          "limit": 250,
+          "unit": "Gigabytes"
+        },
+        "name": "S0",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 10.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 10,
+          "family": null,
+          "name": "Standard",
+          "size": null,
+          "tier": "Standard"
+        },
+        "status": "Default",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "1b1ebd4d-d903-4baa-97f9-4ea675f5e928",
+        "includedMaxSize": {
+          "limit": 250,
+          "unit": "Gigabytes"
+        },
+        "name": "S1",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 20.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 20,
+          "family": null,
+          "name": "Standard",
+          "size": null,
+          "tier": "Standard"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "455330e1-00cd-488b-b5fa-177c226f28b7",
+        "includedMaxSize": {
+          "limit": 250,
+          "unit": "Gigabytes"
+        },
+        "name": "S2",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 50.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 50,
+          "family": null,
+          "name": "Standard",
+          "size": null,
+          "tier": "Standard"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "789681b8-ca10-4eb0-bdf2-e0b050601b40",
+        "includedMaxSize": {
+          "limit": 250,
+          "unit": "Gigabytes"
+        },
+        "name": "S3",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 100.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 100,
+          "family": null,
+          "name": "Standard",
+          "size": null,
+          "tier": "Standard"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "3cf14e1a-0a5d-408c-bbc7-f63c5282f735",
+        "includedMaxSize": {
+          "limit": 250,
+          "unit": "Gigabytes"
+        },
+        "name": "S4",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 200.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 200,
+          "family": null,
+          "name": "Standard",
+          "size": null,
+          "tier": "Standard"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "ab69b4e3-d7cc-4aa5-87a6-f8b50615a03c",
+        "includedMaxSize": {
+          "limit": 250,
+          "unit": "Gigabytes"
+        },
+        "name": "S6",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 400.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 400,
+          "family": null,
+          "name": "Standard",
+          "size": null,
+          "tier": "Standard"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "b6ca0894-d2f0-4e40-99f5-0f8a93cc2437",
+        "includedMaxSize": {
+          "limit": 250,
+          "unit": "Gigabytes"
+        },
+        "name": "S7",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 800.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 800,
+          "family": null,
+          "name": "Standard",
+          "size": null,
+          "tier": "Standard"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "0efa88e9-99ff-4e36-a148-8c4b20c0826c",
+        "includedMaxSize": {
+          "limit": 250,
+          "unit": "Gigabytes"
+        },
+        "name": "S9",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 1600.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 1600,
+          "family": null,
+          "name": "Standard",
+          "size": null,
+          "tier": "Standard"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "98100e8b-2f8a-4a81-9eb5-4d1e675c5a29",
+        "includedMaxSize": {
+          "limit": 250,
+          "unit": "Gigabytes"
+        },
+        "name": "S12",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 3000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 3000,
+          "family": null,
+          "name": "Standard",
+          "size": null,
+          "tier": "Standard"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  },
+  {
+    "name": "Premium",
+    "readScale": {
+      "maxNumberOfReplicas": 1,
+      "reason": null,
+      "status": null
+    },
+    "reason": null,
+    "status": "Available",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": null,
+        "id": "7203483a-c4fb-4304-9e9f-17c71c904f5d",
+        "includedMaxSize": {
+          "limit": 500,
+          "unit": "Gigabytes"
+        },
+        "name": "P1",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 125.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 125,
+          "family": null,
+          "name": "Premium",
+          "size": null,
+          "tier": "Premium"
+        },
+        "status": "Default",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "a7d1b92d-c987-4375-b54d-2b1d0e0f5bb0",
+        "includedMaxSize": {
+          "limit": 500,
+          "unit": "Gigabytes"
+        },
+        "name": "P2",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 250.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 250,
+          "family": null,
+          "name": "Premium",
+          "size": null,
+          "tier": "Premium"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "afe1eee1-1f12-4e5f-9ad6-2de9c12cb4dc",
+        "includedMaxSize": {
+          "limit": 500,
+          "unit": "Gigabytes"
+        },
+        "name": "P4",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 500.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 500,
+          "family": null,
+          "name": "Premium",
+          "size": null,
+          "tier": "Premium"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "43940481-9191-475a-9dba-6b505615b9aa",
+        "includedMaxSize": {
+          "limit": 500,
+          "unit": "Gigabytes"
+        },
+        "name": "P6",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 1000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 1000,
+          "family": null,
+          "name": "Premium",
+          "size": null,
+          "tier": "Premium"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "dd00d544-bbc0-4f61-ba60-cdce0c410288",
+        "includedMaxSize": {
+          "limit": 4,
+          "unit": "Terabytes"
+        },
+        "name": "P11",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 1750.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 1750,
+          "family": null,
+          "name": "Premium",
+          "size": null,
+          "tier": "Premium"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "5bc86cca-9a96-4a94-90ef-bbdfcfbf2d71",
+        "includedMaxSize": {
+          "limit": 4,
+          "unit": "Terabytes"
+        },
+        "name": "P15",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 4000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4000,
+          "family": null,
+          "name": "Premium",
+          "size": null,
+          "tier": "Premium"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  },
+  {
+    "name": "DataWarehouse",
+    "readScale": {
+      "maxNumberOfReplicas": 0,
+      "reason": null,
+      "status": null
+    },
+    "reason": null,
+    "status": "Available",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": null,
+        "id": "9f848803-41b2-4a6d-9501-bb0e0ab31d2e",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW100c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 900.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 900,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Default",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "bd2edbf5-11a2-4a87-b371-4b78eb82280e",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW200c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 1800.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 1800,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "f1e305d4-5a13-4fd1-9deb-033d86ad8ea3",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW300c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 2700.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 2700,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "9e6d0543-d417-4aee-a7aa-b588e0aa9722",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW400c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 3600.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 3600,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "16d01b30-3ecd-4b97-aeaf-a3d52f46fcbe",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW500c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 4500.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4500,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "6b6d6207-2c78-48e2-8549-ae2cdc62f634",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW1000c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 9000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 9000,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "64dec603-ff44-4497-b77f-d4dcbc013e20",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW1500c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 13500.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 13500,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "32084fd6-8bc7-4d72-9aeb-9e5954f28779",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW2000c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 18000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 18000,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "ea58fa6b-4504-4a59-8a8b-278a60f04fd3",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW2500c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 22500.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 22500,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "15e8ff68-3583-42da-9c2e-a29d08bba253",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW3000c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 27000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 27000,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "bcf5eb94-46c3-40c3-b701-c5c189300a79",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW5000c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 45000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 45000,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "8bf62e3f-72a3-4d03-9838-8cc5e2115a07",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW6000c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 54000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 54000,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "c3e07aba-7c88-4fdb-a9ee-ccc6705e2002",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW7500c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 67500.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 67500,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "36ec908d-7322-4ba6-91c2-f2012eb4f32e",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW10000c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 90000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 90000,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "5199131b-d29a-49fd-91e6-a8bdd789659f",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW15000c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 135000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 135000,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "df4771c8-dd92-4795-b9eb-01cbb35a8cdc",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DW30000c",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 270000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 270000,
+          "family": null,
+          "name": "DataWarehouse",
+          "size": null,
+          "tier": "DataWarehouse"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  },
+  {
+    "name": "Stretch",
+    "readScale": {
+      "maxNumberOfReplicas": 0,
+      "reason": null,
+      "status": null
+    },
+    "reason": null,
+    "status": "Available",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": null,
+        "id": "9cfc850f-d57f-4760-b5a6-bb640d268bf0",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS100",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 750.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 750,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Default",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "053407ef-f01c-46f4-b829-96e01a14f449",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS200",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 1500.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 1500,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "013a9e10-cafc-45a8-8fcf-93095655d2ce",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS300",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 2250.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 2250,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "79f61db4-8c10-46ba-a93a-d7d02dddd61c",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS400",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 3000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 3000,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "44eaac33-df00-4ef4-a2bb-f7ff87899eea",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS500",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 3750.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 3750,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "f8e0f3a6-888b-459c-a9dd-d74d8b2b0e72",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS600",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 4500.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4500,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "b9ed8f51-a414-42dc-8348-e4a1de25e12b",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS1000",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 7500.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 7500,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "07479569-6d70-47a5-8db6-0af55d34f2c1",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS1200",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 9000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 9000,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "2d79baec-2879-46d5-9f5d-fb70eb004c4e",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS1500",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 11250.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 11250,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": null,
+        "id": "7fb5389f-6d15-4e0b-9540-fe5ecdfdbeee",
+        "includedMaxSize": {
+          "limit": 240,
+          "unit": "Terabytes"
+        },
+        "name": "DS2000",
+        "performanceLevel": {
+          "unit": "DTU",
+          "value": 15000.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 15000,
+          "family": null,
+          "name": "Stretch",
+          "size": null,
+          "tier": "Stretch"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  },
+  {
+    "name": "GeneralPurpose",
+    "readScale": {
+      "maxNumberOfReplicas": 0,
+      "reason": null,
+      "status": null
+    },
+    "reason": null,
+    "status": "Default",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": "Serverless",
+        "id": "aa3dbf38-039b-4a88-8487-94dfddfd1f86",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_1",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 1.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 1,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 0.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 0.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "f21733ad-9b9b-4d4e-a4fa-94a133c41718",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_2",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 2.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 2,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Default",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "3d6269f6-9ca1-4192-a947-5bff42c8c2aa",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_2",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 2.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 2,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 0.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 0.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "0097b7c6-1974-4c34-b82f-3dea3365e44c",
+        "includedMaxSize": null,
+        "name": "GP_DC_2",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 2.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 2,
+          "family": "DC",
+          "name": "GP_DC",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "5a2250bb-cc3e-4f86-acbd-599fe184b9be",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_4",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 4.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "3372b1c4-d1ab-485c-80dc-e6a0ce4e5f91",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_4",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 4.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 0.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 0.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "bd39b1f5-0795-402e-95d8-c7f30ca54d0e",
+        "includedMaxSize": null,
+        "name": "GP_DC_4",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 4.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4,
+          "family": "DC",
+          "name": "GP_DC",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "197e794a-a0a2-4286-9629-1677137b1314",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_6",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 6.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 6,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "29627e46-7cfd-49c3-92f1-22af2cc31502",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_6",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 6.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 6,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 0.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "b1f0c62f-adfd-44d1-b784-d4ff69603a42",
+        "includedMaxSize": null,
+        "name": "GP_DC_6",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 6.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 6,
+          "family": "DC",
+          "name": "GP_DC",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "d92ff70d-5cc6-4bca-90dd-9ba988f08c02",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_8",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 8.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 8,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "a603eecf-7801-4767-81ce-a59a8a6a0722",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_8",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 8.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 8,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 1.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "41bcb23a-9e8c-415b-a2af-9e5cd1267f4c",
+        "includedMaxSize": null,
+        "name": "GP_DC_8",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 8.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 8,
+          "family": "DC",
+          "name": "GP_DC",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "eb26495c-75d3-427a-80a1-e72583bddf4e",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_10",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 10.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 10,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "77f361df-4913-485f-943f-2bb1d810f4b5",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_10",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 10.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 10,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 1.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 10.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "7b24051a-7551-4f81-b7ed-138b752c0cab",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_12",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 12.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 12,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "fafc7509-d0c0-4d4d-b833-a22a92002af1",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_12",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 12.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 12,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 1.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 1.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 10.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 12.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "a0dcebb2-7b28-45d6-83c8-034ffc44dcc7",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_14",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 14.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 14,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "ffd5edac-d85c-4685-b16d-de8faaa9a085",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_14",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 14.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 14,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 1.75
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 10.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 12.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 14.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "92a37be8-8fb8-4ef8-9add-dbc217c038a7",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_16",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 16.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 16,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "92adf537-10d2-418a-928f-252a069231aa",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_16",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 16.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 16,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 2.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 10.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 12.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 14.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 16.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "7786e4d6-7def-4c25-bbe6-bbb166d9060d",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_18",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 18.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 18,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "012d6080-8170-4c7c-9a21-4f3d928ec799",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_18",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 18.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 18,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 2.25
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 2.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 10.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 12.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 14.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 16.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 18.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "a4567429-ab9b-47c7-a7d9-bef90069c942",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_20",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 20.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 20,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "12ebd5c2-b464-4f90-84e0-8e00b8f36244",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_20",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 20.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 20,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 2.5
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 10.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 12.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 14.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 16.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 18.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 20.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "a0e88422-40ff-4e8d-9403-d69ca347fc36",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_24",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 24.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 24,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "11fb8677-fe10-47cb-8bd8-3712fd68dc68",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_24",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 24.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 24,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 3.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 10.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 12.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 14.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 16.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 18.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 20.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 24.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "e8a59272-786f-4969-a8b5-7db1dedb37cf",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_32",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 32.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 32,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "47b19344-28d2-4343-9263-5e9e71553d55",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_32",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 32.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 32,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 4.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 10.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 12.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 14.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 16.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 18.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 20.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 24.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 32.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "add5efcd-d19e-47c0-90ec-5cf76d25ec62",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_40",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 40.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 40,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Serverless",
+        "id": "3319db90-9a3a-4147-8c47-9bec4cb53359",
+        "includedMaxSize": null,
+        "name": "GP_S_Gen5_40",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 40.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 40,
+          "family": "Gen5",
+          "name": "GP_S_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": {
+          "default": 60,
+          "doNotPauseValue": -1,
+          "maxValue": 10080,
+          "minValue": 60,
+          "stepSize": 10,
+          "unit": "Minutes"
+        },
+        "supportedLicenseTypes": [],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": [
+          {
+            "reason": null,
+            "status": "Default",
+            "value": 5.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 6.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 8.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 10.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 12.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 14.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 16.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 18.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 20.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 24.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 32.0
+          },
+          {
+            "reason": null,
+            "status": "Available",
+            "value": 40.0
+          }
+        ],
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "e847fba4-b20d-4ab3-a422-c74070f38acc",
+        "includedMaxSize": null,
+        "name": "GP_Gen5_80",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 80.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 80,
+          "family": "Gen5",
+          "name": "GP_Gen5",
+          "size": null,
+          "tier": "GeneralPurpose"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  },
+  {
+    "name": "BusinessCritical",
+    "readScale": {
+      "maxNumberOfReplicas": 1,
+      "reason": null,
+      "status": null
+    },
+    "reason": null,
+    "status": "Available",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": "Provisioned",
+        "id": "a0fc5801-8d79-49b1-bb62-02e84cf70333",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_2",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 2.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 2,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Default",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "eac9eeca-207d-47df-adad-98ad93d522c8",
+        "includedMaxSize": null,
+        "name": "BC_DC_2",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 2.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 2,
+          "family": "DC",
+          "name": "BC_DC",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "665a55db-09db-4623-a7c3-95973806f722",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_4",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 4.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "c0d11e47-dcd2-4298-9416-2d0c77ef75e3",
+        "includedMaxSize": null,
+        "name": "BC_DC_4",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 4.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4,
+          "family": "DC",
+          "name": "BC_DC",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "c2d88f7b-021c-494e-adc2-d484c184a129",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_6",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 6.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 6,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "a63ffd1f-58d9-46cb-a7af-e85cd0d2d302",
+        "includedMaxSize": null,
+        "name": "BC_DC_6",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 6.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 6,
+          "family": "DC",
+          "name": "BC_DC",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "5f71c3de-ead7-4cb9-8505-d12e2dc2774a",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_8",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 8.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 8,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "461ac2ba-0bd6-4aa4-8813-ba3dd86ec727",
+        "includedMaxSize": null,
+        "name": "BC_DC_8",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 8.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 8,
+          "family": "DC",
+          "name": "BC_DC",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "6146bc08-82f8-4842-8374-fcb89a0303bf",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_10",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 10.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 10,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "9c892ace-06fe-44b1-9cca-7ad71f3912a3",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_12",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 12.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 12,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "2cdc2809-a9d0-4b14-bbe4-6a0ef12a657b",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_14",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 14.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 14,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "5cf22315-05d1-4af0-b3d8-432459dc1ce9",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_16",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 16.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 16,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "2557f090-9298-4db0-95c8-b5f60730a0b0",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_18",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 18.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 18,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "6c744196-96b4-40f9-b348-f5f0f78e45f4",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_20",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 20.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 20,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "09266e61-c762-47af-9377-07e1fcf0e28f",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_24",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 24.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 24,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "2a8e2a20-b3d8-49b0-9150-4c16c6bdcc98",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_32",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 32.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 32,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "c07a9ab7-a897-41b0-b3b3-16e605cb93a1",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_40",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 40.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 40,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "cc1f7acb-84d5-4d0d-8830-a107747ef391",
+        "includedMaxSize": null,
+        "name": "BC_Gen5_80",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 80.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 80,
+          "family": "Gen5",
+          "name": "BC_Gen5",
+          "size": null,
+          "tier": "BusinessCritical"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": [],
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  },
+  {
+    "name": "Hyperscale",
+    "readScale": {
+      "maxNumberOfReplicas": 4,
+      "reason": null,
+      "status": null
+    },
+    "reason": null,
+    "status": "Available",
+    "supportedServiceLevelObjectives": [
+      {
+        "computeModel": "Provisioned",
+        "id": "a420d2b2-ca32-4152-b1c6-dd8d4d9fd734",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_2",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 2.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 2,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Default",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "373d7773-7ba3-4963-b8a5-97489601f492",
+        "includedMaxSize": null,
+        "name": "HS_DC_2",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 2.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 2,
+          "family": "DC",
+          "name": "HS_DC",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "60dba88b-2dfa-4123-be57-bd0dbfd92a72",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_4",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 4.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "18c1d35b-e52f-486f-9494-6a353e7e0a66",
+        "includedMaxSize": null,
+        "name": "HS_DC_4",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 4.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 4,
+          "family": "DC",
+          "name": "HS_DC",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "b9c594ec-a3fe-4bfe-808d-a595410d0a07",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_6",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 6.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 6,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "06976afe-60b4-429f-ac94-627b2c6bec80",
+        "includedMaxSize": null,
+        "name": "HS_DC_6",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 6.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 6,
+          "family": "DC",
+          "name": "HS_DC",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "efdfac5f-3f8e-4500-95b1-684c07349860",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_8",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 8.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 8,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "037c75aa-2f05-41ef-9997-94633dea8e7f",
+        "includedMaxSize": null,
+        "name": "HS_DC_8",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 8.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 8,
+          "family": "DC",
+          "name": "HS_DC",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "69697c3a-1946-4eb8-a5a4-a269168dde27",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_10",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 10.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 10,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "1bee9dc8-68b4-44df-b870-8ab0e4d71e94",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_12",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 12.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 12,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "07a8341d-c0b2-4000-bc7a-5b4dae2ad210",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_14",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 14.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 14,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "6b56f70b-52e5-44ba-8cd5-4f63d224b206",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_16",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 16.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 16,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "ba0029f2-3ff4-4ef6-9e65-e8f77b5dd1e2",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_18",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 18.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 18,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "f1b2a082-f622-4fb8-bbef-e74deac3ec89",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_20",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 20.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 20,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "222bc0ee-e195-4bbc-be05-3b849c3a8195",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_24",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 24.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 24,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "05366cca-cc70-486e-a697-bb3fab877f75",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_32",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 32.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 32,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "32542ef7-124d-4e66-8b41-9c6c0ab963c2",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_40",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 40.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 40,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      },
+      {
+        "computeModel": "Provisioned",
+        "id": "6509db45-febe-44dd-a079-35f11d477984",
+        "includedMaxSize": null,
+        "name": "HS_Gen5_80",
+        "performanceLevel": {
+          "unit": "VCores",
+          "value": 80.0
+        },
+        "reason": null,
+        "sku": {
+          "capacity": 80,
+          "family": "Gen5",
+          "name": "HS_Gen5",
+          "size": null,
+          "tier": "Hyperscale"
+        },
+        "status": "Available",
+        "supportedAutoPauseDelay": null,
+        "supportedLicenseTypes": [
+          {
+            "name": "LicenseIncluded",
+            "reason": null,
+            "status": "Default"
+          },
+          {
+            "name": "BasePrice",
+            "reason": null,
+            "status": "Available"
+          }
+        ],
+        "supportedMaintenanceConfigurations": [
+          {
+            "name": "SQL_Default",
+            "reason": null,
+            "status": "Default",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_1",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          },
+          {
+            "name": "SQL_WestUS_DB_2",
+            "reason": null,
+            "status": "Available",
+            "zoneRedundant": false
+          }
+        ],
+        "supportedMaxSizes": null,
+        "supportedMinCapacities": null,
+        "zoneRedundant": false
+      }
+    ],
+    "supportedStorageCapabilities": [
+      {
+        "reason": null,
+        "status": "Default",
+        "storageAccountType": "GRS"
+      },
+      {
+        "reason": null,
+        "status": "Available",
+        "storageAccountType": "LRS"
+      },
+      {
+        "reason": "ZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "ZRS"
+      },
+      {
+        "reason": "GZRS is available in multi-az regions",
+        "status": "Visible",
+        "storageAccountType": "GZRS"
+      }
+    ],
+    "zoneRedundant": false
+  }
+]

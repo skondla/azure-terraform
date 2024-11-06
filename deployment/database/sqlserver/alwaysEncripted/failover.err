@@ -1,0 +1,8 @@
+Msg 40615, Level 14, State 1, Line 1
+Cannot open server 'mssqlserver-secondary' requested by the login. Client with IP address '104.219.107.84' is not allowed to access the server.  To enable access, use the Windows Azure Management Portal or run sp_set_firewall_rule on the master database to create a firewall rule for this IP address or address range.  It may take up to five minutes for this change to take effect.
+Total execution time: 00:00:00.865
+Total execution time: 00:00:00.865
+
+#https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-set-firewall-rule-azure-sql-database?view=azure-sqldw-latest
+
+

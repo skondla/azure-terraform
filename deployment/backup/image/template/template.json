@@ -1,0 +1,134 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "galleryName": {
+            "type": "string"
+        },
+        "location": {
+            "type": "string"
+        },
+        "publisher": {
+            "type": "string"
+        },
+        "offer": {
+            "type": "string"
+        },
+        "sku": {
+            "type": "string"
+        },
+        "osState": {
+            "type": "string"
+        },
+        "osType": {
+            "type": "string"
+        },
+        "hyperVGeneration": {
+            "type": "string"
+        },
+        "minRecommendedvCPUs": {
+            "type": "int"
+        },
+        "maxRecommendedvCPUs": {
+            "type": "int"
+        },
+        "minRecommendedMemory": {
+            "type": "int"
+        },
+        "maxRecommendedMemory": {
+            "type": "int"
+        },
+        "securityType": {
+            "type": "string"
+        },
+        "imageDefinitionName": {
+            "type": "string"
+        },
+        "versionName": {
+            "type": "string"
+        },
+        "defaultReplicaCount": {
+            "type": "int"
+        },
+        "excludedFromLatest": {
+            "type": "bool"
+        },
+        "regionReplications": {
+            "type": "array"
+        },
+        "sourceImageId": {
+            "type": "string"
+        }
+    },
+    "variables": {},
+    "resources": [
+        {
+            "type": "Microsoft.Compute/galleries",
+            "name": "[parameters('galleryName')]",
+            "apiVersion": "2021-10-01",
+            "location": "[parameters('location')]",
+            "properties": {},
+            "tags": {}
+        },
+        {
+            "type": "Microsoft.Compute/galleries/images",
+            "dependsOn": [
+                "[resourceId('Microsoft.Compute/galleries/', parameters('galleryName'))]"
+            ],
+            "name": "[concat(parameters('galleryName'), '/', parameters('imageDefinitionName'))]",
+            "apiVersion": "2021-07-01",
+            "location": "[parameters('location')]",
+            "properties": {
+                "osType": "[parameters('osType')]",
+                "osState": "[parameters('osState')]",
+                "identifier": {
+                    "publisher": "[parameters('publisher')]",
+                    "offer": "[parameters('offer')]",
+                    "sku": "[parameters('sku')]"
+                },
+                "hyperVGeneration": "[parameters('hyperVGeneration')]",
+                "recommended": {
+                    "vCPUs": {
+                        "min": "[parameters('minRecommendedvCPUs')]",
+                        "max": "[parameters('maxRecommendedvCPUs')]"
+                    },
+                    "memory": {
+                        "min": "[parameters('minRecommendedMemory')]",
+                        "max": "[parameters('maxRecommendedMemory')]"
+                    }
+                },
+                "features": [
+                    {
+                        "name": "securityType",
+                        "value": "[parameters('securityType')]"
+                    }
+                ]
+            },
+            "tags": {}
+        },
+        {
+            "apiVersion": "2021-10-01",
+            "type": "Microsoft.Compute/galleries/images/versions",
+            "dependsOn": [
+                "[resourceId('Microsoft.Compute/galleries/', parameters('galleryName'))]",
+                "[concat('Microsoft.Compute/galleries/', parameters('galleryName'), '/images/', parameters('imageDefinitionName'))]"
+            ],
+            "name": "[concat(parameters('galleryName'), '/', parameters('imageDefinitionName'), '/', parameters('versionName'))]",
+            "location": "[parameters('location')]",
+            "properties": {
+                "publishingProfile": {
+                    "replicaCount": "[parameters('defaultReplicaCount')]",
+                    "targetRegions": "[parameters('regionReplications')]",
+                    "excludeFromLatest": "[parameters('excludedFromLatest')]"
+                },
+                "storageProfile": {
+                    "source": {
+                        "id": "[parameters('sourceImageId')]"
+                    }
+                }
+            },
+            "tags": {}
+        }
+    ],
+    "outputs": {}
+}

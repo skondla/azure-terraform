@@ -1,0 +1,98 @@
+{
+  "exp": 1659599870,
+  "iat": 1659571070,
+  "iss": "https://sharedeus2.eus2.attest.azure.net",
+  "jti": "2eba670e23c703dbd067afed02f60f57c1d569680219707af33f857c85c89e29",
+  "nbf": 1659571070,
+  "secureboot": true,
+  "x-ms-attestation-type": "azurevm",
+  "x-ms-azurevm-attestation-protocol-ver": "2.0",
+  "x-ms-azurevm-attested-pcrs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "x-ms-azurevm-bootdebug-enabled": false,
+  "x-ms-azurevm-dbvalidated": true,
+  "x-ms-azurevm-dbxvalidated": true,
+  "x-ms-azurevm-debuggersdisabled": true,
+  "x-ms-azurevm-default-securebootkeysvalidated": true,
+  "x-ms-azurevm-elam-enabled": false,
+  "x-ms-azurevm-flightsigning-enabled": false,
+  "x-ms-azurevm-hvci-policy": 0,
+  "x-ms-azurevm-hypervisordebug-enabled": false,
+  "x-ms-azurevm-is-windows": false,
+  "x-ms-azurevm-kerneldebug-enabled": false,
+  "x-ms-azurevm-osbuild": "NotApplication",
+  "x-ms-azurevm-osdistro": "Ubuntu",
+  "x-ms-azurevm-ostype": "Linux",
+  "x-ms-azurevm-osversion-major": 20,
+  "x-ms-azurevm-osversion-minor": 4,
+  "x-ms-azurevm-signingdisabled": true,
+  "x-ms-azurevm-testsigning-enabled": false,
+  "x-ms-azurevm-vmid": "60CB39FD-57C0-4CB0-8473-04BDB36B82DC",
+  "x-ms-isolation-tee": {
+    "x-ms-attestation-type": "sevsnpvm",
+    "x-ms-compliance-status": "azure-compliant-cvm",
+    "x-ms-runtime": {
+      "keys": [
+        {
+          "e": "AQAB",
+          "key_ops": [
+            "encrypt"
+          ],
+          "kid": "HCLAkPub",
+          "kty": "RSA",
+          "n": "uqTCSwABT6xb3DvMgT-x3sKp3ebrxNNw6XjhPL39borZtGZ8GqfJbhHI7UHSThjRwWttWpihwe99R9C4WT24DuUoXjz_paDcI38Xk0OMWXCn9lJR8qPOAsMMbzZ3O1ynM1HRwaktXrm8BYpFzqUVQxR8jLmi_J1eX4_j_I_GMEy94BOSjODbPSwpY-KrQKQWZoHFEaMjfOj-hQ__v5cfO39yQsaWcNvxg8qu04e1gOtfyS5rWLkTJyfXFO2iz9r58tjoTDFaOLNPavKfMvioDZ9rxIblGpweIwO1JcozQ2BEgvLn5TUxL4kfacJFjE5-fC7aUv677leSmvCewbKmgQ"
+        }
+      ],
+      "vm-configuration": {
+        "console-enabled": true,
+        "current-time": 1659570539,
+        "secure-boot": true,
+        "tpm-enabled": true,
+        "vmUniqueId": "60CB39FD-57C0-4CB0-8473-04BDB36B82DC"
+      }
+    },
+    "x-ms-sevsnpvm-authorkeydigest": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "x-ms-sevsnpvm-bootloader-svn": 2,
+    "x-ms-sevsnpvm-familyId": "01000000000000000000000000000000",
+    "x-ms-sevsnpvm-guestsvn": 2,
+    "x-ms-sevsnpvm-hostdata": "0000000000000000000000000000000000000000000000000000000000000000",
+    "x-ms-sevsnpvm-idkeydigest": "57e229e0ffe5fa92d0faddff6cae0e61c926fc9ef9afd20a8b8cfcf7129db9338cbe5bf3f6987733a2bf65d06dc38fc1",
+    "x-ms-sevsnpvm-imageId": "02000000000000000000000000000000",
+    "x-ms-sevsnpvm-is-debuggable": false,
+    "x-ms-sevsnpvm-launchmeasurement": "5677f1de87289e7ad2c7e99c805d0468b1a9ccd83f0d245afa5242d405da4d5725852f8c6550564870e5f3206dfb1841",
+    "x-ms-sevsnpvm-microcode-svn": 93,
+    "x-ms-sevsnpvm-migration-allowed": false,
+    "x-ms-sevsnpvm-reportdata": "ea21ae00103ac9ce68ac376b21a57bf0407e8e3bf928c544f3d2847134ec02350000000000000000000000000000000000000000000000000000000000000000",
+    "x-ms-sevsnpvm-reportid": "78aba7466acb0b63812ae5822947b3677e43d3fc1e2018327a57acd9f13cb32a",
+    "x-ms-sevsnpvm-smt-allowed": true,
+    "x-ms-sevsnpvm-snpfw-svn": 6,
+    "x-ms-sevsnpvm-tee-svn": 0,
+    "x-ms-sevsnpvm-vmpl": 0
+  },
+  "x-ms-policy-hash": "wm9mHlvTU82e8UqoOy1Yj1FBRSNkfe99-69IYDq9eWs",
+  "x-ms-runtime": {
+    "client-payload": {
+      "nonce": "MTIzNA=="
+    },
+    "keys": [
+      {
+        "e": "AQAB",
+        "key_ops": [
+          "encrypt"
+        ],
+        "kid": "TpmEphemeralEncryptionKey",
+        "kty": "RSA",
+        "n": "m_Y48gAAKNrHXLC5uonoxREq4uqOMt94E-Y2WCHNOP6Ut56M1uE8Fe3ZNes9LK8n7lTRvAgAEJSb8qFIrGhLypkWlqKDwO8kqg7VROfpGLse28eRroQ3l8ptjreIBZePIQoAMNd5QqxBXREPaTceLZ0r6HCaoaDnXxBDxyiJhVMHgW09_WRhvxQuvTkKua80f0niuTBL1jk5eMjeQHvPCBUUCZdwu4Wtb8MvyYyJh_tDuzUWSTRgeTo4ZowvSq12MkWilBsoR3fIPRQj4RbN7eHk9JWC8ux3wjy5KqwC-tTTHbbEac8n8DHOjGGG2yOVww84cLg1YT4R78YfNCCTMQ"
+      }
+    ]
+  },
+  "x-ms-ver": "1.0"
+}

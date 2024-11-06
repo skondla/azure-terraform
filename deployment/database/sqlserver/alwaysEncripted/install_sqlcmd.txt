@@ -1,0 +1,16 @@
+https://cloudblogs.microsoft.com/sqlserver/2017/04/03/sql-server-command-line-tools-for-mac-preview-now-available/
+
+$ brew tap microsoft/mssql-preview
+$ brew update
+$ echo 'export HOMEBREW_GITHUB_API_TOKEN=your_token_here' >> /Users/s.kondla/.bash_profile
+OR
+$ export HOMEBREW_GITHUB_API_TOKEN=your_token_here
+$ ACCEPT_EULA=YES brew install msodbcsql mssql-tools
+
+
+#Troubleshooting
+https://stackoverflow.com/questions/20130681/setting-github-api-token-for-homebrew
+https://stackoverflow.com/questions/61222362/cant-open-lib-usr-local-lib-libmsodbcsql-13-dylib-file-not-found-but-fil
+https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/install-microsoft-odbc-driver-sql-server-macos?view=sql-server-ver16
+https://stackoverflow.com/questions/44527452/cant-open-lib-odbc-driver-13-for-sql-server-sym-linking-issue
+https://docs.microsoft.com/en-us/answers/questions/579576/odbc-driver-can39t-find-correct-openssl-version-af.html (OpenSQL issue)

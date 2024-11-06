@@ -1,0 +1,224 @@
+s.kondla@C02G1085MD6R:~/apps/hashi/terraform/cloud/azure/landing-zones/confcompute/chmrx/prod/deployment/storage/azr-netapp-files$ terraform plan --out azr-files-plan
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # azurerm_storage_account.azusafiles will be created
+  + resource "azurerm_storage_account" "azusafiles" {
+      + access_tier                       = (known after apply)
+      + account_kind                      = "StorageV2"
+      + account_replication_type          = "LRS"
+      + account_tier                      = "Premium"
+      + allow_nested_items_to_be_public   = true
+      + cross_tenant_replication_enabled  = true
+      + enable_https_traffic_only         = false
+      + id                                = (known after apply)
+      + infrastructure_encryption_enabled = false
+      + is_hns_enabled                    = false
+      + large_file_share_enabled          = (known after apply)
+      + location                          = "westus"
+      + min_tls_version                   = "TLS1_2"
+      + name                              = "chkmarxsafiles"
+      + nfsv3_enabled                     = true
+      + primary_access_key                = (sensitive value)
+      + primary_blob_connection_string    = (sensitive value)
+      + primary_blob_endpoint             = (known after apply)
+      + primary_blob_host                 = (known after apply)
+      + primary_connection_string         = (sensitive value)
+      + primary_dfs_endpoint              = (known after apply)
+      + primary_dfs_host                  = (known after apply)
+      + primary_file_endpoint             = (known after apply)
+      + primary_file_host                 = (known after apply)
+      + primary_location                  = (known after apply)
+      + primary_queue_endpoint            = (known after apply)
+      + primary_queue_host                = (known after apply)
+      + primary_table_endpoint            = (known after apply)
+      + primary_table_host                = (known after apply)
+      + primary_web_endpoint              = (known after apply)
+      + primary_web_host                  = (known after apply)
+      + queue_encryption_key_type         = "Service"
+      + resource_group_name               = "chkmarx-conf-compute-mvp"
+      + secondary_access_key              = (sensitive value)
+      + secondary_blob_connection_string  = (sensitive value)
+      + secondary_blob_endpoint           = (known after apply)
+      + secondary_blob_host               = (known after apply)
+      + secondary_connection_string       = (sensitive value)
+      + secondary_dfs_endpoint            = (known after apply)
+      + secondary_dfs_host                = (known after apply)
+      + secondary_file_endpoint           = (known after apply)
+      + secondary_file_host               = (known after apply)
+      + secondary_location                = (known after apply)
+      + secondary_queue_endpoint          = (known after apply)
+      + secondary_queue_host              = (known after apply)
+      + secondary_table_endpoint          = (known after apply)
+      + secondary_table_host              = (known after apply)
+      + secondary_web_endpoint            = (known after apply)
+      + secondary_web_host                = (known after apply)
+      + shared_access_key_enabled         = true
+      + table_encryption_key_type         = "Service"
+      + tags                              = {
+          + "cost_center_code" = "7508"
+          + "cost_center_name" = "CEDI"
+          + "environment"      = "CC_MVP"
+          + "owner"            = "s.kondla@f5.com"
+        }
+
+      + blob_properties {
+          + change_feed_enabled           = (known after apply)
+          + change_feed_retention_in_days = (known after apply)
+          + default_service_version       = (known after apply)
+          + last_access_time_enabled      = (known after apply)
+          + versioning_enabled            = (known after apply)
+
+          + container_delete_retention_policy {
+              + days = (known after apply)
+            }
+
+          + cors_rule {
+              + allowed_headers    = (known after apply)
+              + allowed_methods    = (known after apply)
+              + allowed_origins    = (known after apply)
+              + exposed_headers    = (known after apply)
+              + max_age_in_seconds = (known after apply)
+            }
+
+          + delete_retention_policy {
+              + days = (known after apply)
+            }
+        }
+
+      + network_rules {
+          + bypass                     = (known after apply)
+          + default_action             = (known after apply)
+          + ip_rules                   = (known after apply)
+          + virtual_network_subnet_ids = (known after apply)
+
+          + private_link_access {
+              + endpoint_resource_id = (known after apply)
+              + endpoint_tenant_id   = (known after apply)
+            }
+        }
+
+      + queue_properties {
+          + cors_rule {
+              + allowed_headers    = (known after apply)
+              + allowed_methods    = (known after apply)
+              + allowed_origins    = (known after apply)
+              + exposed_headers    = (known after apply)
+              + max_age_in_seconds = (known after apply)
+            }
+
+          + hour_metrics {
+              + enabled               = (known after apply)
+              + include_apis          = (known after apply)
+              + retention_policy_days = (known after apply)
+              + version               = (known after apply)
+            }
+
+          + logging {
+              + delete                = (known after apply)
+              + read                  = (known after apply)
+              + retention_policy_days = (known after apply)
+              + version               = (known after apply)
+              + write                 = (known after apply)
+            }
+
+          + minute_metrics {
+              + enabled               = (known after apply)
+              + include_apis          = (known after apply)
+              + retention_policy_days = (known after apply)
+              + version               = (known after apply)
+            }
+        }
+
+      + routing {
+          + choice                      = (known after apply)
+          + publish_internet_endpoints  = (known after apply)
+          + publish_microsoft_endpoints = (known after apply)
+        }
+
+      + share_properties {
+          + cors_rule {
+              + allowed_headers    = (known after apply)
+              + allowed_methods    = (known after apply)
+              + allowed_origins    = (known after apply)
+              + exposed_headers    = (known after apply)
+              + max_age_in_seconds = (known after apply)
+            }
+
+          + retention_policy {
+              + days = (known after apply)
+            }
+
+          + smb {
+              + authentication_types            = (known after apply)
+              + channel_encryption_type         = (known after apply)
+              + kerberos_ticket_encryption_type = (known after apply)
+              + versions                        = (known after apply)
+            }
+        }
+    }
+
+  # azurerm_storage_share.azrfiles-nfs will be created
+  + resource "azurerm_storage_share" "azrfiles-nfs" {
+      + access_tier          = (known after apply)
+      + enabled_protocol     = "NFS"
+      + id                   = (known after apply)
+      + metadata             = (known after apply)
+      + name                 = "cc-azr-nfs-files"
+      + quota                = 50
+      + resource_manager_id  = (known after apply)
+      + storage_account_name = "chkmarxsafiles"
+      + url                  = (known after apply)
+
+      + acl {
+          + id = "dT3TxaheeL25ei0kDpPqS1cHUMv6vAnOKJ6SKBF2nJQ="
+
+          + access_policy {
+              + expiry      = "2023-08-15T10:38:21.0000000Z"
+              + permissions = "rwdl"
+              + start       = "2022-08-15T09:38:21.0000000Z"
+            }
+        }
+    }
+
+  # azurerm_storage_share.azrfiles-smb will be created
+  + resource "azurerm_storage_share" "azrfiles-smb" {
+      + access_tier          = (known after apply)
+      + enabled_protocol     = "SMB"
+      + id                   = (known after apply)
+      + metadata             = (known after apply)
+      + name                 = "cc-azr-smb-files"
+      + quota                = 50
+      + resource_manager_id  = (known after apply)
+      + storage_account_name = "chkmarxsafiles"
+      + url                  = (known after apply)
+
+      + acl {
+          + id = "wiC3ENrYVcZjb9T0LRphhTCq2jnJ1CLCgE/omTYWNpE="
+
+          + access_policy {
+              + expiry      = "2023-08-15T10:38:21.0000000Z"
+              + permissions = "rwdl"
+              + start       = "2022-08-15T09:38:21.0000000Z"
+            }
+        }
+    }
+
+  # null_resource.storage-container will be created
+  + resource "null_resource" "storage-container" {
+      + id = (known after apply)
+    }
+
+Plan: 4 to add, 0 to change, 0 to destroy.
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Saved the plan to: azr-files-plan
+
+To perform exactly these actions, run the following command to apply:
+    terraform apply "azr-files-plan"
+s.kondla@C02G1085MD6R:~/apps/hashi/terraform/cloud/azure/landing-zones/confcompute/chmrx/prod/deployment/storage/azr-netapp-files$ 
+

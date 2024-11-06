@@ -1,0 +1,95 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "type": "string"
+        },
+        "privateEndpointName": {
+            "type": "string"
+        },
+        "privateLinkResource": {
+            "type": "string"
+        },
+        "targetSubResource": {
+            "type": "array"
+        },
+        "requestMessage": {
+            "type": "string"
+        },
+        "subnet": {
+            "type": "string"
+        },
+        "virtualNetworkId": {
+            "type": "string"
+        },
+        "virtualNetworkResourceGroup": {
+            "type": "string"
+        },
+        "subnetDeploymentName": {
+            "type": "string"
+        }
+    },
+    "resources": [
+        {
+            "location": "[parameters('location')]",
+            "name": "[parameters('privateEndpointName')]",
+            "type": "Microsoft.Network/privateEndpoints",
+            "apiVersion": "2021-03-01",
+            "properties": {
+                "subnet": {
+                    "id": "[parameters('subnet')]"
+                },
+                "privateLinkServiceConnections": [
+                    {
+                        "name": "[parameters('privateEndpointName')]",
+                        "properties": {
+                            "privateLinkServiceId": "[parameters('privateLinkResource')]",
+                            "groupIds": "[parameters('targetSubResource')]"
+                        }
+                    }
+                ]
+            },
+            "tags": {
+                "owner": "s.kondla@f5.com",
+                "cost_center_name": "CEDI",
+                "cost_center_code": "7508"
+            },
+            "dependsOn": []
+        },
+        {
+            "apiVersion": "2017-05-10",
+            "name": "DnsZoneGroup-20220427211815",
+            "type": "Microsoft.Resources/deployments",
+            "resourceGroup": "cc-hsm-prvlink-integ",
+            "dependsOn": [
+                "[parameters('privateEndpointName')]"
+            ],
+            "properties": {
+                "mode": "Incremental",
+                "template": {
+                    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+                    "contentVersion": "1.0.0.0",
+                    "resources": [
+                        {
+                            "type": "Microsoft.Network/privateEndpoints/privateDnsZoneGroups",
+                            "apiVersion": "2021-03-01",
+                            "name": "[concat(parameters('privateEndpointName'), '/', 'default')]",
+                            "location": "[parameters('location')]",
+                            "properties": {
+                                "privateDnsZoneConfigs": [
+                                    {
+                                        "name": "privatelink-managedhsm-azure-net",
+                                        "properties": {
+                                            "privateDnsZoneId": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/f5pnet/providers/Microsoft.Network/privateDnsZones/privatelink.managedhsm.azure.net"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

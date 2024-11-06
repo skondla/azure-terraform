@@ -1,0 +1,54 @@
+azurerm_mssql_server.cxsqlsrvstandby: Creating...
+azurerm_mssql_server.cxsqlsrvprimary: Creating...
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [10s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [10s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [20s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [20s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [30s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [30s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [40s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [40s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [50s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [50s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [1m0s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [1m0s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [1m10s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [1m10s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [1m20s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [1m20s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [1m30s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [1m30s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [1m40s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [1m40s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [1m50s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [1m50s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [2m0s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [2m0s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [2m10s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [2m10s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [2m20s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [2m20s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [2m30s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [2m30s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [2m40s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [2m40s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Still creating... [2m50s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [2m50s elapsed]
+azurerm_mssql_server.cxsqlsrvprimary: Creation complete after 2m54s [id=/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Sql/servers/mssqlserver-primary]
+azurerm_mssql_database.cxsqlsrvdb: Creating...
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [3m0s elapsed]
+azurerm_mssql_database.cxsqlsrvdb: Still creating... [10s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [3m10s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [3m20s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [3m30s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Still creating... [3m40s elapsed]
+azurerm_mssql_server.cxsqlsrvstandby: Creation complete after 3m40s [id=/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Sql/servers/mssqlserver-secondary]
+╷
+│ Error: waiting for create/update of Database: (Name "cxsqlsrvdb1" / Server Name "mssqlserver-primary" / Resource Group "chkmarx-conf-compute-mvp"): Code="InvalidReadScaleEdition" Message="The operation could not be completed because the read scale value specified is not supported for a 'GeneralPurpose' database."
+│ 
+│   with azurerm_mssql_database.cxsqlsrvdb,
+│   on sqlsrv.tf line 75, in resource "azurerm_mssql_database" "cxsqlsrvdb":
+│   75: resource "azurerm_mssql_database" "cxsqlsrvdb" {
+│ 
+╵
+

@@ -1,0 +1,103 @@
+{
+        "location": {
+            "value": "westus"
+        },
+        "availabilitySets_AZ_SET_1_externalid": {
+            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/availabilitySets/AZ-SET-1"
+        },
+        "networkInterfaceName": {
+            "value": "cc-chmrx268"
+        },
+        "backendPoolId": {
+            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Network/loadBalancers/chkmarx-lb/backendAddressPools/chkmarx-lbbepool"
+        },
+        "subnetName": {
+            "value": "AppSubnet"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Network/virtualNetworks/chkmrx-mvp-vnet1"
+        },
+        "virtualMachineName": {
+            "value": "cc-chmrx"
+        },
+        "virtualMachineComputerName": {
+            "value": "cc-chmrx"
+        },
+        "virtualMachineRG": {
+            "value": "chkmarx-conf-compute-mvp"
+        },
+        "osDiskType": {
+            "value": "StandardSSD_LRS"
+        },
+        "confidentialDiskEncryptionSetId": {
+            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/SST-CXSAST-MVP-CC/providers/Microsoft.Compute/diskEncryptionSets/CheckMarx-HSM-Disk-Encryption-Set-Prod"
+        },
+        "osDiskDeleteOption": {
+            "value": "Delete"
+        },
+        "dataDisks": {
+            "value": [
+                {
+                    "lun": 0,
+                    "createOption": "attach",
+                    "deleteOption": "Delete",
+                    "caching": "ReadOnly",
+                    "writeAcceleratorEnabled": false,
+                    "id": null,
+                    "name": "cc-chmrx_DataDisk_0",
+                    "storageAccountType": null,
+                    "diskSizeGB": null,
+                    "diskEncryptionSet": {
+                        "id": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/CHKMARX-CONF-COMPUTE-MVP/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set"
+                    }
+                }
+            ]
+        },
+        "dataDiskResources": {
+            "value": [
+                {
+                    "name": "cc-chmrx_DataDisk_0",
+                    "sku": "StandardSSD_LRS",
+                    "properties": {
+                        "diskSizeGB": 16,
+                        "creationData": {
+                            "createOption": "empty"
+                        },
+                        "encryption": {
+                            "diskEncryptionSetId": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/CHKMARX-CONF-COMPUTE-MVP/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set"
+                        }
+                    }
+                }
+            ]
+        },
+        "virtualMachineSize": {
+            "value": "Standard_DC4as_v5"
+        },
+        "nicDeleteOption": {
+            "value": "Delete"
+        },
+        "adminUsername": {
+            "value": "adminuser"
+        },
+        "adminPublicKey": {
+            "value": "'($TF_VAR_pubKey)'"
+        },
+        "customData": {
+            "value": ""
+        },
+        "securityType": {
+            "value": "ConfidentialVM"
+        },
+        "secureBoot": {
+            "value": true
+        },
+        "vTPM": {
+            "value": true
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "chkmarxsa"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Storage/storageAccounts/chkmarxsa"
+        }
+}

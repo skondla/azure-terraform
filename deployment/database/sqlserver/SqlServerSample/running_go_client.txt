@@ -1,0 +1,5 @@
+go env -w GO111MODULE=on
+go mod init sqlsrvSampleGo.go 
+go mod tidy
+source setEnv.sh 
+go run sqlsrvSampleGo.go

@@ -1,0 +1,193 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "defaultValue": "cvm-arm-deploy-4",
+            "type": "String"
+        },
+        "availabilitySets_AZ_SET_1_externalid": {
+            "defaultValue": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/availabilitySets/AZ-SET-1",
+            "type": "String"
+        },
+        "osDiskType": {
+            "type": "string",
+            "defaultValue": "StandardSSD_LRS",
+            "allowedValues": [
+              "Premium_LRS",
+              "Standard_LRS",
+              "StandardSSD_LRS"
+            ],
+            "metadata": {
+              "description": "OS disk type of the VM."
+            }
+        },
+        "vmLocation": {
+            "type": "string",
+            "defaultValue":  "West US",
+            "allowedValues": [
+              "West US",
+              "North Europe"
+            ],
+            "metadata": {
+              "description": "Location of the VM."
+            }
+          },
+          "nicDeleteOption": {
+            "type": "string",
+            "defaultValue": "Detach",
+            "metadata": {
+              "description": "nicDeleteOption setting of the VM."
+            }
+          },
+
+          "subnetId": {
+            "type": "string",
+            "defaultValue": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Network/virtualNetworks/chkmrx-mvp-vnet1/subnets/AppSubnet",      
+            "metadata": {
+              "description": "subnetId setting of the VM."
+            }
+          },  
+        "networkInterfaceName": {
+            "type": "string",
+            "defaultValue": "nic1",
+            "allowedValues": [
+              "nic1",
+              "nic2"
+            ],
+            "metadata": {
+              "description": "networkInterfaceName setting of the VM."
+            }
+          }
+    },
+    "variables": {
+        "networkInterfaceName": "[concat(parameters('vmName'), '-nic')]"
+    },
+    "resources": [
+        {
+            "name": "[concat(parameters('vmName'), '-nic')]",
+            "type": "Microsoft.Network/networkInterfaces",
+            "apiVersion": "2021-03-01",
+            "location": "[parameters('vmLocation')]",
+            "dependsOn": [],
+            "properties": {
+                "ipConfigurations": [
+                    {
+                        "name": "ipconfig1",
+                        "properties": {
+                            "subnet": {
+                                "id": "[parameters('subnetId')]"
+                            },
+                            "privateIPAllocationMethod": "Dynamic"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Microsoft.Compute/virtualMachines",
+            "apiVersion": "2022-03-01",
+            "name": "[parameters('vmName')]",
+            "location": "westus",
+            "tags": {
+                "owner": "s.kondla@f5.com",
+                "cost_center_code": "7508",
+                "cost_center_name": "CEDI"
+            },
+            "identity": {
+                "type": "SystemAssigned"
+            },
+            "properties": {
+                "availabilitySet": {
+                    "id": "[parameters('availabilitySets_AZ_SET_1_externalid')]"
+                },
+                "hardwareProfile": {
+                    "vmSize": "Standard_DC2as_v5"
+                },
+                "storageProfile": {
+                    "imageReference": {
+                        "publisher": "canonical",
+                        "offer": "0001-com-ubuntu-confidential-vm-focal",
+                        "sku": "20_04-lts-cvm",
+                        "version": "latest"
+                    },
+                    "osDisk": {
+                        "osType": "Linux",
+                        "name": "[concat(parameters('vmName'), '_OsDisk_1')]",
+                        "createOption": "FromImage",
+                        "caching": "ReadWrite",
+                        "managedDisk": {
+                            "securityProfile": {
+                                "securityEncryptionType": "DiskWithVMGuestState"
+                            },
+                            "storageAccountType": "[parameters('osDiskType')]"
+                        },
+                        "deleteOption": "Delete",
+                        "diskSizeGB": 30
+                    },
+                    "dataDisks": []
+                },
+                "osProfile": {
+                    "computerName": "[parameters('vmName')]",
+                    "adminUsername": "adminuser",
+                    "linuxConfiguration": {
+                        "disablePasswordAuthentication": true,
+                        "ssh": {
+                            "publicKeys": [
+                                {
+                                    "path": "/home/adminuser/.ssh/authorized_keys",
+                                    "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC2yshTdi59vZPEQDsGgbvkXm/vAVB6i8pi3366+mfteIUaxcGzNDC7EUAtele2tTguIcvRBTTMQhR8JKygQDq9rS1q3g4U7LwqK+IPhhWVUGdzpiMwvpZGCmkjsswY4QEqdeKM0FWwsxFItOP7yZtYIM+RA/ys06XnPu+sfPo9ydjYyYJ1Fz+7n4MRmGqu5ZmlbNpJcuoP4ytEkajmE9+c1mLSgWyCG7KOrLUQiCBGPB6ZxCAO6sFkr++rZuOIB/Xiry3CNuZEERud1ClxcHLkllU1Y8+iz6R4fI6BGYwajIph6thbuh/pRiAo3QyoD+WRRVPOuAIGoCO0ZRn8Lg0IPBMC76Ml6PeNoPS1GjBit9Xmg50P1cfxCnFCHeatJxE2wt1evb+3WFoHsgNHOJm3IF6UveboGGrxHTcRhh+32NMl8VWQPxuAxn4svXuZHABqd9yyXGf26VcBsBOmbjjdEVJSi8TkckFFOHEZ9RK+JobQydHch5+wWl1hJ1P/iwCuQeU85yUM847/PAuMrT3clqM107WFc312dqIKlk8+6sLZVRsx7Mt4C4gAJJXVG3NNx3wFdAXHDjfwjTBC0OoFuEnSqtH+dg7RZrBIau/dZ8oU8OL2L2iczcaGoG9hynngOkGUzKuDZfeoWRCi0/s11edMQ7+4q+3BP2//bdX1Mw== s.kondla@C02G1085MD6R"
+                                }
+                            ]
+                        },
+                        "provisionVMAgent": true,
+                        "patchSettings": {
+                            "patchMode": "ImageDefault",
+                            "assessmentMode": "ImageDefault"
+                        }
+                    },
+                    "secrets": [],
+                    "allowExtensionOperations": true
+                },
+                "securityProfile": {
+                    "uefiSettings": {
+                        "secureBootEnabled": true,
+                        "vTpmEnabled": true
+                    },
+                    "securityType": "ConfidentialVM"
+                },
+                "networkProfile": {
+                    "networkInterfaces": [
+                        {
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', concat(parameters('vmName'), '-nic'))]",
+                            "properties": {
+                                "deleteOption": "[parameters('nicDeleteOption')]"
+                            }
+                        }
+                    ]
+                },
+                "diagnosticsProfile": {
+                    "bootDiagnostics": {
+                        "enabled": true,
+                        "storageUri": "https://chkmarxsa.blob.core.windows.net/"
+                    }
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Compute/virtualMachines/extensions",
+            "apiVersion": "2022-03-01",
+            "name": "[concat(parameters('vmName'), '/AzureNetworkWatcherExtension')]",
+            "location": "westus",
+            "dependsOn": [
+                "[resourceId('Microsoft.Compute/virtualMachines', parameters('vmName'))]"
+            ],
+            "properties": {
+                "autoUpgradeMinorVersion": true,
+                "publisher": "Microsoft.Azure.NetworkWatcher",
+                "type": "NetworkWatcherAgentLinux",
+                "typeHandlerVersion": "1.4"
+            }
+        }
+    ]
+}
