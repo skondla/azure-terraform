@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#az account set --subscription "7157c5e7-0f06-458b-8229-0a0f52209ee2"
+#az account set --subscription "23583f43-xxxx-abcd-kstr-yyyyyyyyy"
 
 if [ $# -lt 3 ];
 then

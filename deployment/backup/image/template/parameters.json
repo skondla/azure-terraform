@@ -62,7 +62,7 @@
                     "encryption": {
                         "datadiskImages": [
                             {
-                                "diskEncryptionSetId": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/CHKMARX-CONF-COMPUTE-MVP/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set"
+                                "diskEncryptionSetId": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/CHKMARX-CONF-COMPUTE-MVP/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set"
                             }
                         ]
                     }
@@ -70,7 +70,7 @@
             ]
         },
         "sourceImageId": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/images/cc-cvm-sd-1-image-20220803171854"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/images/cc-cvm-sd-1-image-20220803171854"
         }
     }
 }

@@ -3,7 +3,7 @@
 
 #az login
 
-SUBSCRIPTION="7157c5e7-0f06-458b-8229-0a0f52209ee2"
+SUBSCRIPTION="23583f43-xxxx-abcd-kstr-yyyyyyyyy"
 RESOURCE_GROUP=chkmarx-conf-compute-mvp
 LOCATION="westus"
 ANF_ACCOUNT_NAME="azrnetapp"
@@ -68,7 +68,7 @@ function createNetAppVolume() {
 }    
      
 # --encryption-key-source https://des-sast-keyvault-cc6.vault.azure.net/keys/des-keyvault-key6/d657f689d50a40b9b6bc6d8aeb10303d
-# --encryption-key-source /subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set
+# --encryption-key-source /subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set
 # --kerberos-enabled true \
 # --kerberos5-rw
 # --export-policy '[{"allowed_clients":"172.21.39.128/25", "rule_index": "1", "unix_read_only": "false", "unix_read_write": "true", "cifs": "true", "nfsv3": "true", "nfsv3": "true", "nfsv4": "true"}]' \

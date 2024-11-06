@@ -3,7 +3,7 @@
 
 #az login
 
-SUBSCRIPTION="7157c5e7-0f06-458b-8229-0a0f52209ee2"
+SUBSCRIPTION="23583f43-xxxx-abcd-kstr-yyyyyyyyy"
 RESOURCE_GROUP=chkmarx-conf-compute-mvp
 LOCATION="westus"
 ANF_ACCOUNT_NAME="azrnetapp"

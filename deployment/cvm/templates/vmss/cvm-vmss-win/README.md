@@ -32,13 +32,13 @@ Make sure vnet, subnet, NSG and other common resources are provisioned
     Note: Currently customer managed key for disk encryption is not supported for VM Scale sets
 
 <!--
-    │ Error: waiting for creation of Windows Virtual Machine Scale Set: (Name "cc-win" / Resource Group "chkmarx-conf-compute-mvp"): Code="BadRequest" Message="Encryption Type ConfidentialVmEncryptedWithCustomerKey is not supported for server side encryption with customer managed key.  Target: '/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/disks/cc-win_cc-win_0_OsDisk_1_e6b48e69db124e50b2c02a2aa5f397ca'."
+    │ Error: waiting for creation of Windows Virtual Machine Scale Set: (Name "cc-win" / Resource Group "chkmarx-conf-compute-mvp"): Code="BadRequest" Message="Encryption Type ConfidentialVmEncryptedWithCustomerKey is not supported for server side encryption with customer managed key.  Target: '/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/disks/cc-win_cc-win_0_OsDisk_1_e6b48e69db124e50b2c02a2aa5f397ca'."
     │ 
     │   with azurerm_windows_virtual_machine_scale_set.cvm-ss-win,
     │   on cvm-ss.tf line 50, in resource "azurerm_windows_virtual_machine_scale_set" "cvm-ss-win":
     │   50: resource "azurerm_windows_virtual_machine_scale_set" "cvm-ss-win" {
 
-    Error: waiting for creation of Windows Virtual Machine Scale Set: (Name "cc-win" / Resource Group "chkmarx-conf-compute-mvp"): Code="BadRequest" Message="Encryption Type ConfidentialVmEncryptedWithCustomerKey is not supported for server side encryption with customer managed key.  Target: '/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/disks/cc-win_cc-win_0_disk2_afcd3790f18d416aa8b13435085fc74d'." 
+    Error: waiting for creation of Windows Virtual Machine Scale Set: (Name "cc-win" / Resource Group "chkmarx-conf-compute-mvp"): Code="BadRequest" Message="Encryption Type ConfidentialVmEncryptedWithCustomerKey is not supported for server side encryption with customer managed key.  Target: '/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/disks/cc-win_cc-win_0_disk2_afcd3790f18d416aa8b13435085fc74d'." 
     │ 
     │   with azurerm_windows_virtual_machine_scale_set.cvm-ss-win,
     │   on cvm-ss.tf line 50, in resource "azurerm_windows_virtual_machine_scale_set" "cvm-ss-win":

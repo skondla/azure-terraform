@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 #Provide the subscription Id where snapshot is created
-subscriptionId="7157c5e7-0f06-458b-8229-0a0f52209ee2"
+subscriptionId="23583f43-xxxx-abcd-kstr-yyyyyyyyy"
 
 #Provide the name of your resource group where snapshot is created
 resourceGroupName="chkmarx-conf-compute-mvp"

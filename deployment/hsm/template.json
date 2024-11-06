@@ -81,7 +81,7 @@
                                     {
                                         "name": "privatelink-managedhsm-azure-net",
                                         "properties": {
-                                            "privateDnsZoneId": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/f5pnet/providers/Microsoft.Network/privateDnsZones/privatelink.managedhsm.azure.net"
+                                            "privateDnsZoneId": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/f5pnet/providers/Microsoft.Network/privateDnsZones/privatelink.managedhsm.azure.net"
                                         }
                                     }
                                 ]

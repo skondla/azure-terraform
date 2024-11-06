@@ -9,7 +9,7 @@
             "value": "chkmarx_prv_ep1"
         },
         "privateLinkResource": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/confidential-compute-hsm/providers/Microsoft.KeyVault/managedHSMs/ccKVHsm1"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/confidential-compute-hsm/providers/Microsoft.KeyVault/managedHSMs/ccKVHsm1"
         },
         "targetSubResource": {
             "value": [
@@ -20,10 +20,10 @@
             "value": ""
         },
         "subnet": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/f5pnet/providers/Microsoft.Network/virtualNetworks/checkmarx-vnet-1/subnets/privlnkSubnet"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/f5pnet/providers/Microsoft.Network/virtualNetworks/checkmarx-vnet-1/subnets/privlnkSubnet"
         },
         "virtualNetworkId": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/f5pnet/providers/Microsoft.Network/virtualNetworks/checkmarx-vnet-1"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/f5pnet/providers/Microsoft.Network/virtualNetworks/checkmarx-vnet-1"
         },
         "subnetDeploymentName": {
             "value": "UpdateSubnetDeployment-20220427211815"

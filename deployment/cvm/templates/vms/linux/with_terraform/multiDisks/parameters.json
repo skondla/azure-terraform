@@ -3,19 +3,19 @@
             "value": "westus"
         },
         "availabilitySets_AZ_SET_1_externalid": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/availabilitySets/AZ-SET-1"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/availabilitySets/AZ-SET-1"
         },
         "networkInterfaceName": {
             "value": "cc-chmrx268"
         },
         "backendPoolId": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Network/loadBalancers/chkmarx-lb/backendAddressPools/chkmarx-lbbepool"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Network/loadBalancers/chkmarx-lb/backendAddressPools/chkmarx-lbbepool"
         },
         "subnetName": {
             "value": "AppSubnet"
         },
         "virtualNetworkId": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Network/virtualNetworks/chkmrx-mvp-vnet1"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Network/virtualNetworks/chkmrx-mvp-vnet1"
         },
         "virtualMachineName": {
             "value": "cc-chmrx"
@@ -30,7 +30,7 @@
             "value": "StandardSSD_LRS"
         },
         "confidentialDiskEncryptionSetId": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/SST-CXSAST-MVP-CC/providers/Microsoft.Compute/diskEncryptionSets/CheckMarx-HSM-Disk-Encryption-Set-Prod"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/SST-CXSAST-MVP-CC/providers/Microsoft.Compute/diskEncryptionSets/CheckMarx-HSM-Disk-Encryption-Set-Prod"
         },
         "osDiskDeleteOption": {
             "value": "Delete"
@@ -48,7 +48,7 @@
                     "storageAccountType": null,
                     "diskSizeGB": null,
                     "diskEncryptionSet": {
-                        "id": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/CHKMARX-CONF-COMPUTE-MVP/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set"
+                        "id": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/CHKMARX-CONF-COMPUTE-MVP/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set"
                     }
                 }
             ]
@@ -64,7 +64,7 @@
                             "createOption": "empty"
                         },
                         "encryption": {
-                            "diskEncryptionSetId": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/CHKMARX-CONF-COMPUTE-MVP/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set"
+                            "diskEncryptionSetId": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/CHKMARX-CONF-COMPUTE-MVP/providers/Microsoft.Compute/diskEncryptionSets/des-encrypt-set"
                         }
                     }
                 }
@@ -98,6 +98,6 @@
             "value": "chkmarxsa"
         },
         "diagnosticsStorageAccountId": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Storage/storageAccounts/chkmarxsa"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Storage/storageAccounts/chkmarxsa"
         }
 }

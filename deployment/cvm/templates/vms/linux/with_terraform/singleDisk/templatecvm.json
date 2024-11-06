@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "availabilitySets_AZ_SET_1_externalid": {
-            "defaultValue": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/availabilitySets/AZ-SET-1",
+            "defaultValue": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/availabilitySets/AZ-SET-1",
             "type": "String"
         },
         "osDiskType": {
@@ -39,7 +39,7 @@
 
         "subnetId": {
            "type": "string",
-           "defaultValue": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Network/virtualNetworks/chkmrx-mvp-vnet1/subnets/AppSubnet",      
+           "defaultValue": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Network/virtualNetworks/chkmrx-mvp-vnet1/subnets/AppSubnet",      
            "metadata": {
              "description": "subnetId setting of the VM."
            }

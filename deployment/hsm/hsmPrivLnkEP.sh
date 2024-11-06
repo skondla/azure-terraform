@@ -3,7 +3,7 @@
 #Establish a private link connection to Managed HSM using CLI (Initial Setup)
 
 #Populate the env variables
-SUBSCRIPTION_ID="7157c5e7-0f06-458b-8229-0a0f52209ee2"
+SUBSCRIPTION_ID="23583f43-xxxx-abcd-kstr-yyyyyyyyy"
 APP_RESOURCE_GROUP="cc-hsm-prvlink-integ"
 NET_RESOURCE_GROUP="f5pnet"
 REGION="westus"

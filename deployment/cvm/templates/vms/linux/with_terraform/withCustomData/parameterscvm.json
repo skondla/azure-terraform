@@ -6,7 +6,7 @@
             "value": "cvm-arm-deploy-4.pdsea.f5net.com"
         },
         "availabilitySets_AZ_SET_1_externalid": {
-            "value": "/subscriptions/7157c5e7-0f06-458b-8229-0a0f52209ee2/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/availabilitySets/AZ-SET-1"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/availabilitySets/AZ-SET-1"
         }
     }
 }
