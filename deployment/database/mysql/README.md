@@ -27,4 +27,4 @@ To provision Azure mysql database with geo-redundancy, use this sample. Make sur
     terraform apply "plan-mysql"
 
 # Proposed Architecture Diagram
-![imagename](https://docs.f5net.com/download/attachments/722365217/Checkmarx_Arch_Single-AZ-Azure-1.png?version=5&modificationDate=1648656065000&api=v2)
+![imagename](https://docs.futurenet.com/download/attachments/722365217/Checkmarx_Arch_Single-AZ-Azure-1.png?version=5&modificationDate=1648656065000&api=v2)

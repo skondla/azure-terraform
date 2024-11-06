@@ -150,7 +150,7 @@
             "name": "[parameters('virtualMachineName')]",
             "location": "westus",
             "tags": {
-                "owner": "s.kondla@f5.com",
+                "owner": "s.kondla@future.com",
                 "cost_center_code": "7508",
                 "cost_center_name": "CEDI"
             },

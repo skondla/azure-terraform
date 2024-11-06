@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "vmName": {
-            "value": "cvm-arm-deploy-4.pdsea.f5net.com"
+            "value": "cvm-arm-deploy-4.pdsea.futurenet.com"
         },
         "availabilitySets_AZ_SET_1_externalid": {
             "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/chkmarx-conf-compute-mvp/providers/Microsoft.Compute/availabilitySets/AZ-SET-1"

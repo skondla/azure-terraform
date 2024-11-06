@@ -20,16 +20,16 @@
             "value": ""
         },
         "subnet": {
-            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/f5pnet/providers/Microsoft.Network/virtualNetworks/checkmarx-vnet-1/subnets/privlnkSubnet"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/futurepnet/providers/Microsoft.Network/virtualNetworks/checkmarx-vnet-1/subnets/privlnkSubnet"
         },
         "virtualNetworkId": {
-            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/f5pnet/providers/Microsoft.Network/virtualNetworks/checkmarx-vnet-1"
+            "value": "/subscriptions/23583f43-xxxx-abcd-kstr-yyyyyyyyy/resourceGroups/futurepnet/providers/Microsoft.Network/virtualNetworks/checkmarx-vnet-1"
         },
         "subnetDeploymentName": {
             "value": "UpdateSubnetDeployment-20220427211815"
         },
         "virtualNetworkResourceGroup": {
-            "value": "f5pnet"
+            "value": "futurepnet"
         }
     }
 }

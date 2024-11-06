@@ -334,7 +334,7 @@
     "supportedServiceLevelObjectives": [
       {
         "computeModel": null,
-        "id": "6aa3bb3e-7f50-40d6-95ef-5497c30d99d8",
+        "id": "6aa3bb3e-7future0-40d6-95ef-5497c30d99d8",
         "includedMaxSize": {
           "limit": 32,
           "unit": "Megabytes"
@@ -509,7 +509,7 @@
       },
       {
         "computeModel": null,
-        "id": "1b1ebd4d-d903-4baa-97f9-4ea675f5e928",
+        "id": "1b1ebd4d-d903-4baa-97f9-4ea675futuree928",
         "includedMaxSize": {
           "limit": 250,
           "unit": "Gigabytes"
@@ -732,7 +732,7 @@
       },
       {
         "computeModel": null,
-        "id": "b6ca0894-d2f0-4e40-99f5-0f8a93cc2437",
+        "id": "b6ca0894-d2f0-4e40-99future-0f8a93cc2437",
         "includedMaxSize": {
           "limit": 250,
           "unit": "Gigabytes"
@@ -908,7 +908,7 @@
     "supportedServiceLevelObjectives": [
       {
         "computeModel": null,
-        "id": "7203483a-c4fb-4304-9e9f-17c71c904f5d",
+        "id": "7203483a-c4fb-4304-9e9f-17c71c904futured",
         "includedMaxSize": {
           "limit": 500,
           "unit": "Gigabytes"
@@ -955,7 +955,7 @@
       },
       {
         "computeModel": null,
-        "id": "a7d1b92d-c987-4375-b54d-2b1d0e0f5bb0",
+        "id": "a7d1b92d-c987-4375-b54d-2b1d0e0futurebb0",
         "includedMaxSize": {
           "limit": 500,
           "unit": "Gigabytes"
@@ -1260,7 +1260,7 @@
       },
       {
         "computeModel": null,
-        "id": "bd2edbf5-11a2-4a87-b371-4b78eb82280e",
+        "id": "bd2edbfuture-11a2-4a87-b371-4b78eb82280e",
         "includedMaxSize": {
           "limit": 240,
           "unit": "Terabytes"
@@ -1575,7 +1575,7 @@
       },
       {
         "computeModel": null,
-        "id": "bcf5eb94-46c3-40c3-b701-c5c189300a79",
+        "id": "bcfutureeb94-46c3-40c3-b701-c5c189300a79",
         "includedMaxSize": {
           "limit": 240,
           "unit": "Terabytes"
@@ -2030,7 +2030,7 @@
       },
       {
         "computeModel": null,
-        "id": "b9ed8f51-a414-42dc-8348-e4a1de25e12b",
+        "id": "b9ed8future1-a414-42dc-8348-e4a1de25e12b",
         "includedMaxSize": {
           "limit": 240,
           "unit": "Terabytes"
@@ -2065,7 +2065,7 @@
       },
       {
         "computeModel": null,
-        "id": "07479569-6d70-47a5-8db6-0af55d34f2c1",
+        "id": "07479569-6d70-47a5-8db6-0afuture5d34f2c1",
         "includedMaxSize": {
           "limit": 240,
           "unit": "Terabytes"
@@ -2100,7 +2100,7 @@
       },
       {
         "computeModel": null,
-        "id": "2d79baec-2879-46d5-9f5d-fb70eb004c4e",
+        "id": "2d79baec-2879-46d5-9futured-fb70eb004c4e",
         "includedMaxSize": {
           "limit": 240,
           "unit": "Terabytes"
@@ -2619,7 +2619,7 @@
       },
       {
         "computeModel": "Provisioned",
-        "id": "bd39b1f5-0795-402e-95d8-c7f30ca54d0e",
+        "id": "bd39b1future-0795-402e-95d8-c7f30ca54d0e",
         "includedMaxSize": null,
         "name": "GP_DC_4",
         "performanceLevel": {
@@ -3638,7 +3638,7 @@
       },
       {
         "computeModel": "Serverless",
-        "id": "92adf537-10d2-418a-928f-252a069231aa",
+        "id": "92adfuture37-10d2-418a-928f-252a069231aa",
         "includedMaxSize": null,
         "name": "GP_S_Gen5_16",
         "performanceLevel": {
@@ -5342,7 +5342,7 @@
       },
       {
         "computeModel": "Provisioned",
-        "id": "6c744196-96b4-40f9-b348-f5f0f78e45f4",
+        "id": "6c744196-96b4-40f9-b348-futuref0f78e45f4",
         "includedMaxSize": null,
         "name": "BC_Gen5_20",
         "performanceLevel": {

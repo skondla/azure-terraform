@@ -76,7 +76,7 @@ variable "waf_configuration" {
 variable "owner" {
   description = "Ower of deployment"
   type        = string
-  default     = "s.kondla@f5.com"
+  default     = "s.kondla@future.com"
 }
 
 variable "cost_center_name" {
