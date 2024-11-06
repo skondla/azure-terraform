@@ -11,22 +11,19 @@ CCC is dedicated to defining and accelerating the adoption of confidential compu
 # Goals
 Requirements:
 
-- F5 goal is to protect source code, data and sensitive keys in cloud infrastructure from third party access including cloud service providers.
-- Only F5 staff have the ability to access secure cloud platform.
-- The proposed platform should have all security controls in place to protect sensitive F5 assets at rest, in-transit and in-use.
-- Protect confidentiality, integrity and availability of F5’s IP, data and other assets in entire life cycle.
+- Future goal is to protect source code, data and sensitive keys in cloud infrastructure from third party access including cloud service providers.
+- Only Future staff have the ability to access secure cloud platform.
+- The proposed platform should have all security controls in place to protect sensitive Future assets at rest, in-transit and in-use.
+- Protect confidentiality, integrity and availability of Future’s IP, data and other assets in entire life cycle.
 
 # References
 
-[Generic Future State Secure Cloud Reference Architecture (Confidential Computing)](https://docs.f5net.com/pages/viewpage.action?pageId=682993933 "Secure Cloud")
 
 # TMA
 
-[TMA - Checkmarx SAST in Azure Confidential Computing](https://docs.f5net.com/display/TMA/TMA+-+Checkmarx+SAST+in+Azure+Confidential+Computing "Secure Cloud")
 
 # Generic Confidential Computing (Azure) Reference Architecture
 
-![Alt text](./architecture/Generic_Cloud_Azure_arch_11.0.png)
 
 
 
