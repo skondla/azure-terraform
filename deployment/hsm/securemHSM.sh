@@ -1,18 +1,18 @@
 #!/bin/bash
 
-# This role assignment allows F5 Security Team to create new Managed HSMs
-az role assignment create --assignee-object-id $(az ad group show -g 'F5 Security Team' --query 'objectId' -o tsv) --assignee-principal-type Group --role "Managed HSM Contributor"
+# This role assignment allows future Security Team to create new Managed HSMs
+az role assignment create --assignee-object-id $(az ad group show -g 'future Security Team' --query 'objectId' -o tsv) --assignee-principal-type Group --role "Managed HSM Contributor"
 
-# This role assignment allows F5 Security Team to become administrator of existing managed HSM
-az keyvault role assignment create  --hsm-name ccKVHsm1 --assignee $(az ad group show -g 'F5 Security Team' --query 'objectId' -o tsv) --scope / --role "Managed HSM Administrator"
+# This role assignment allows future Security Team to become administrator of existing managed HSM
+az keyvault role assignment create  --hsm-name ccKVHsm1 --assignee $(az ad group show -g 'future Security Team' --query 'objectId' -o tsv) --scope / --role "Managed HSM Administrator"
 
 # Enable logging
 hsmresource=$(az keyvault show --hsm-name ccKVHsm1 --query id -o tsv)
 storageresource=$(az storage account show --name confcomptfstatebzbs8znh --query id -o tsv)
 az monitor diagnostic-settings create --name MHSM-Diagnostics --resource $hsmresource --logs    '[{"category": "AuditEvent","enabled": true}]' --storage-account $storageresource
 
-# Assign the "Crypto Auditor" role to F5 App Auditors group. It only allows them to read.
-az keyvault role assignment create  --hsm-name ccKVHsm1 --assignee $(az ad group show -g 'F5 App Auditors' --query 'objectId' -o tsv) --scope / --role "Managed HSM Crypto Auditor"
+# Assign the "Crypto Auditor" role to future App Auditors group. It only allows them to read.
+az keyvault role assignment create  --hsm-name ccKVHsm1 --assignee $(az ad group show -g 'future App Auditors' --query 'objectId' -o tsv) --scope / --role "Managed HSM Crypto Auditor"
 
 # Grant the "Crypto User" role to the VM's managed identity. It allows to create and use keys. 
 # However it cannot permanently delete (purge) keys

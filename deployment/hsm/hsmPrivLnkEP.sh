@@ -5,7 +5,7 @@
 #Populate the env variables
 SUBSCRIPTION_ID="23583f43-xxxx-abcd-kstr-yyyyyyyyy"
 APP_RESOURCE_GROUP="cc-hsm-prvlink-integ"
-NET_RESOURCE_GROUP="f5pnet"
+NET_RESOURCE_GROUP="futurepnet"
 REGION="westus"
 HSM_NAME="ccKVHsm1"
 HSM_RG_NAME="confidential-compute-hsm"

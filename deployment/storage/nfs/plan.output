@@ -62,7 +62,7 @@ Terraform will perform the following actions:
           + "cost_center_code" = "7508"
           + "cost_center_name" = "CEDI"
           + "environment"      = "CC_MVP"
-          + "owner"            = "s.kondla@f5.com"
+          + "owner"            = "skondla@me.com"
         }
 
       + blob_properties {

@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt install net-tools
 IPADDR=`ifconfig -a|grep broadcast | awk '{print $2}'`
-HOSTNAME=`hostname`".pdsea.f5net.com"
+HOSTNAME=`hostname`".pdsea.futurenet.com"
 sudo echo "${IPADDR} ${HOSTNAME} `hostname`" >> /etc/hosts
 sudo hostnamectl set-hostname ${HOSTNAME}
 
