@@ -18,7 +18,6 @@
 │   │   ├── README.md
 │   │   ├── appGW.tf
 │   │   ├── appGWCert
-│   │   │   └── appgwcertF5.pfx
 │   │   ├── setSenstiveData.sh
 │   │   ├── testing
 │   │   │   ├── appGWCreate.sh
@@ -211,8 +210,7 @@
 │   │   └── variables.tf
 │   ├── keyvault
 │   │   ├── appGWCert
-│   │   │   ├── appgwcert.pfx
-│   │   │   └── appgwcertF5.pfx
+│   │   │   └── appgwcert.pfx
 │   │   ├── keyvault.tf
 │   │   ├── setSenstiveData.sh
 │   │   └── variables.tf
@@ -296,4 +294,4 @@
 ├── encrypt_secrets.sh
 └── findNReplace.sh
 
-85 directories, 212 files
+85 directories, 210 files
